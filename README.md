@@ -54,7 +54,7 @@ THEN the saved events persist
 -my tutors
 
 ## Deployement
-https://lizasmirnov.github.io/javascript_passwordgenerator/
+https://lizasmirnov.github.io/day_calendar_apis/
 
 Liza Smirnov
 ISC License [https://choosealicense.com/licenses/isc/]
