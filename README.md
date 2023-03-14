@@ -1,4 +1,4 @@
-# 05 Third-Party APIs: Work Day Scheduler
+## day_calendar_apis
 
 ## Your Task
 
@@ -6,17 +6,15 @@ Create a simple calendar application that allows a user to save events for each 
 
 You'll need to use the [Day.js](https://day.js.org/en/) library to work with date and time. Be sure to read the documentation carefully and concentrate on using Day.js in the browser.
 
-## User Story
+## Description
 
-```md
-AS AN employee with a busy schedule
-I WANT to add important events to a daily planner
-SO THAT I can manage my time effectively
-```
+- With Html and CSS provided, worked on Javasript to reach into the html and create a working day calendar.
+- An event listener was created when the person click on save button which pushed the text written for the time to local storage. To    be able to do this we had to reach into the html and use jquery to grab the text. 
+- A color indicator was created to show which column was at the present time showing in red. Past was grey color and the future was green. 
+-Last we had to find a way to match the different columns with the surrent time. To do this we added an new id to each time block and ran if statements. Based on those statements it will indicate whether the time was present, past, or future.
 
 ## Acceptance Criteria
 
-```md
 GIVEN I am using a daily planner to create a schedule
 WHEN I open the planner
 THEN the current day is displayed at the top of the calendar
@@ -30,70 +28,64 @@ WHEN I click the save button for that timeblock
 THEN the text for that event is saved in local storage
 WHEN I refresh the page
 THEN the saved events persist
-```
 
-The following animation demonstrates the application functionality:
+## Installation
+- Mostly workin on html first made sure the event listener was working correctly and saveing to local storage.
 
-<!-- @TODO: create ticket to review/update image) -->
-![A user clicks on slots on the color-coded calendar and edits the events.](./Assets/05-third-party-apis-homework-demo.gif)
+![image](https://user-images.githubusercontent.com/122588135/224916059-f7bb28d5-63ea-44a9-8fde-08f71e0ecc56.png)
 
-## Grading Requirements
+![image](https://user-images.githubusercontent.com/122588135/224916188-519c398a-e6f6-46a0-988e-74801c021c53.png)
 
-> **Note**: If a Challenge assignment submission is marked as “0”, it is considered incomplete and will not count towards your graduation requirements. Examples of incomplete submissions include the following:
->
-> * A repository that has no code
->
-> * A repository that includes a unique name but nothing else
->
-> * A repository that includes only a README file but nothing else
->
-> * A repository that only includes starter code
 
-This Challenge is graded based on the following criteria:
+- After that I made the calendar and time append to the html and display in the header.
+  
+![image](https://user-images.githubusercontent.com/122588135/224916434-71341da4-d3c3-405f-8e95-a5bf66191d5e.png)
 
-### Technical Acceptance Criteria: 40%
+- Lastly the hardest part was figuring out the for each column assign a number and then compare to the current time. 
 
-* Satisfies all of the above acceptance criteria plus the following:
+![image](https://user-images.githubusercontent.com/122588135/224917010-00e046c2-0866-461f-97a5-067f48b163ea.png)
 
-  * Uses a date utility library to work with date and time
+## Credits
 
-### Deployment: 32%
+- w3school.com 
+- modules from classwork
+- StackOverFlow.com
+-https://jquery.com
+-my tutors
 
-* Application deployed at live URL
+## Deployement
+https://lizasmirnov.github.io/javascript_passwordgenerator/
 
-* Application loads with no errors
+Liza Smirnov
+ISC License [https://choosealicense.com/licenses/isc/]
 
-* Application GitHub URL submitted
+## License
 
-* GitHub repo contains application code
+Copyright (c) [2023] [Liza Smirnov]
 
-### Application Quality: 15%
+Permission to use, copy, modify, and/or distribute this software for any
+purpose with or without fee is hereby granted, provided that the above
+copyright notice and this permission notice appear in all copies.
 
-* Application user experience is intuitive and easy to navigate
+THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH
+REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY
+AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT,
+INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM
+LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR
+OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR
+PERFORMANCE OF THIS SOFTWARE.
 
-* Application user interface style is clean and polished
+## Badges
 
-* Application resembles the mock-up functionality provided in the Challenge instructions
 
-### Repository Quality: 13%
+## Features
 
-* Repository has a unique name
+N/A yet
 
-* Repository follows best practices for file structure and naming conventions
+## How to Contribute
 
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
+N/A
 
-* Repository contains multiple descriptive commit messages
+## Tests
 
-* Repository contains quality README file with description, screenshot, and link to deployed application
-
-## Review
-
-You are required to submit the following for review:
-
-* The URL of the deployed application
-
-* The URL of the GitHub repository, with a unique name and a README describing the project
-
-- - -
-© 2023 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
+N/A
